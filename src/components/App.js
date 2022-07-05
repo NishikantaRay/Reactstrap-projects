@@ -3,6 +3,7 @@ import React ,{useState} from 'react';
 import Header from './Header';
 import AddContactList from './AddContactList';
 import ContactList from './ContactList';
+import Link from './Link';
 
 function App() {
   const [contacts,setContacts]=useState([]);
@@ -21,7 +22,7 @@ function App() {
     <ContactList contacts={contacts}/>
     </div>
    
-    
+    {/* <Link page={"https://google.com"} children={"hello"}></Link> */}
     </>
   );
 }

@@ -8,7 +8,7 @@ export default class Addcontactlist extends Component {
   add=(e)=>{
     e.preventDefault();
     if(this.state.name === "" && this.state.email === ""){
-      alert("Mandatory field");
+      console.log("name and email is blank");
       return;
     }
     this.props.addContactHandeler(this.state);
