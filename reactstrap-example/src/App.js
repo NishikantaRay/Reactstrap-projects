@@ -9,9 +9,13 @@ import {
 import Navbarcomp from "./components/Navbarcomp";
 import Post from "./components/Post";
 import Gallery from "./components/Gallery";
+import TimeForm from "./components/TimeForm";
 function App() {
   return (
     <div className="App">
+      <h1 className="text-center">Timer portal</h1>
+
+      <TimeForm></TimeForm>
 
 
 
@@ -23,9 +27,6 @@ function App() {
 
 
 
-
-
-      
       {/* <BrowserRouter>
       <Routes>
       <Route path="/" element={<App />}/>
